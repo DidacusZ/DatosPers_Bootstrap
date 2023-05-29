@@ -1,4 +1,3 @@
-
 class Usuario{
 	constructor (dni,edad,apellidos,nombre) {
 	    this.dni = dni;

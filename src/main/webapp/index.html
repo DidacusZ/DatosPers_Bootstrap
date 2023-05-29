@@ -18,7 +18,7 @@
 <body>
 
 <div class="container fluid">
-<div class="center">
+
 
 	<div class="row text-center">
 		<div class="col-12">
@@ -37,15 +37,28 @@
 				<br><br>
 				<label>DNI:</label><input type="text" size="50" name="dni" required/>
 				<br><br>
-				<input type="submit" name="Datos" onClick="GuardarDatos(this.form)"/>			
+				
+				<div class="col-6">
+					<input type="submit" name="Datos" onClick="GuardarDatos(this.form)"/>
+				</div>
+									
 			</form>
 		</div>
-		<div class="col-6">
-			<a href="mostrarDatos.html"><button>Consultar</button></a>	
-		</div>		
+		
+		<div class="row">
+		
+			<div class="col-6">		
+				
+			</div>
+				
+			<div class="col-6">
+				<a href="mostrarDatos.html"><button>Consultar</button></a>
+			</div>
+		
+		</div>
+			
 	</div>
-	
-</div>
+
 </div>		
 
 </body>
